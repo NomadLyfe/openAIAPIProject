@@ -8,6 +8,7 @@ openai = "*"
 python-dotenv = "*"
 transformers = "*"
 torch = "*"
+datasets = "*"
 
 [dev-packages]
 
