@@ -6,9 +6,10 @@ name = "pypi"
 [packages]
 openai = "*"
 python-dotenv = "*"
-transformers = "*"
 torch = "*"
 datasets = "*"
+transformers = {extras = ["torch"], version = "*"}
+scikit-learn = "*"
 
 [dev-packages]
 
